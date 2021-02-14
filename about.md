@@ -1,8 +1,9 @@
-# Sushil Khairnar
+
 <!-- <img src="images/sushil_1.jpg" width="30%" /> -->
 Hi, I am Sushil Khairnar. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I work as a Software Developer at Credit Suisse, a major global financial firm. I am a part of the Market Data Analytics team in the Global Markets division. My work deals with the development of applications, testing and automating existing processes, monitoring systems and the release of products through Git.
 
-# Key Projects at Credit Suisse
+# I have worked on the following projects at Credit Suisse
+
 1. Data Ingestion Framework- Building data pipelines, configuring hive metastore and visualizing data. 
 2. Time Series Forecasting to capture Trade Anomalies – Time series analysis and modeling using TS models such as ARMA, ARIMA, Holt-Winters, etc.
 3. Machine Learning Model to Predict Expenses - Expense prediction using regression techniques and time-series analysis.
@@ -10,7 +11,8 @@ Hi, I am Sushil Khairnar. <img src="https://raw.githubusercontent.com/MartinHein
 5. Liquid Symbol Monitoring – Monitoring system which analyses and monitors top liquid symbols/ticks across Asia Pacific for all major exchanges.
 6. Market Condition Prediction - Predict absolute spread, volume, volatility and liquidity. The model predicts market conditions for next T+5, T+10 and T+15 minutes.
 
-# Academic Projects
+# My Academic Projects
+
 1. [DONOR-X](https://www.youtube.com/watch?v=1AKfClmABxE) - An android and website based platform for connecting organ and blood donors with recipients
 2. Real Time Singer Recognition - Identify the singer of a song and then cluster songs of similar voices in a music library. 
 3. LiCi-II - A light weight cipher 
@@ -22,7 +24,7 @@ The research paper presents an implementation of a Lightweight 6LoWPAN Protocol 
 1. Published by Springer in the book series of Advances in Intelligent systems and Computing.
 2. Paper presented at Science and Information (Computing Conference) 2018 London.
 
-# Hobby Projects
+# Projects which I did in my spare time
 1. [House Price Prediction](https://github.com/sushilk123/House-Price-Prediction)
 2. [Smart Grid](https://github.com/sushilk123/Smart-Grid)
 3. [Whatsapp Chat Analytics](https://github.com/sushilk123/Whatsapp-Chat-Analytics)
