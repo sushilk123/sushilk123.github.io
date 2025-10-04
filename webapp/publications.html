@@ -16,6 +16,31 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon.ico">
     <link rel="manifest" href="../images/favicon/favicon.ico">
     <meta name="theme-color" content="#ffffff">
+
+    <style>
+        #publications {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+        .list-group-item {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .list-group-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .list-group-item h3 a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .list-group-item h3 a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -24,9 +49,7 @@
     <!-- Header -->
     <header id="header" class="alt">
         <a href="/index.html" class="logo"><strong>Sushil Khairnar</strong></a>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
+        <nav><a href="#menu">Menu</a></nav>
     </header>
 
     <!-- Menu -->
@@ -41,51 +64,71 @@
 
     <!-- Main Section -->
     <section id="publications">
-        <div class="inner">
-            <h1>Research Publications</h1>
+        <div class="inner container">
+            <h1 class="mb-4">Research Publications</h1>
             <p>Below is a list of my published research papers in the fields of Cryptography, Machine Learning, and Data Science.</p>
 
             <ul class="list-group">
+
+                <!-- Existing Papers -->
                 <li class="list-group-item">
-                    <h3>
-                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-01177-2_71" target="_blank">
-                            A Lightweight Cryptographic Solution for 6LoWPAN Protocol Stack
-                        </a>
-                    </h3>
+                    <h3><a href="https://link.springer.com/chapter/10.1007/978-3-030-01177-2_71" target="_blank">
+                        A Lightweight Cryptographic Solution for 6LoWPAN Protocol Stack</a></h3>
                     <p><strong>Published in:</strong> Advances in Intelligent Systems and Computing, Springer (2018)</p>
                     <p><strong>Conference:</strong> Science and Information (Computing Conference) 2018, London, UK</p>
                     <p>This paper presents an implementation of a lightweight 6LoWPAN protocol stack using efficient ciphers designed for IoT devices, with analysis against major cryptographic attacks.</p>
                 </li>
 
                 <li class="list-group-item">
-                    <h3>
-                        <a href="https://thesai.org/Publications/ViewPaper?Volume=16&Issue=6&Code=IJACSA&SerialNo=4" target="_blank">
-                            Combating Bias in Recidivism Algorithms – An AI Approach
-                        </a>
-                    </h3>
+                    <h3><a href="https://thesai.org/Publications/ViewPaper?Volume=16&Issue=6&Code=IJACSA&SerialNo=4" target="_blank">
+                        Combating Bias in Recidivism Algorithms – An AI Approach</a></h3>
                     <p><strong>Published in:</strong> International Journal of Advanced Computer Science and Applications (IJACSA), Vol. 16, Issue 6, 2025</p>
                     <p>This paper explores algorithmic fairness and bias mitigation in AI-based criminal recidivism prediction models using explainable machine learning techniques.</p>
                 </li>
 
                 <li class="list-group-item">
-                    <h3>
-                        <a href="https://thesai.org/Publications/ViewPaper?Volume=16&Issue=7&Code=ijacsa&SerialNo=96" target="_blank">
-                            AI-Based Cybersecurity Threat Detection using Ensemble Learning Models
-                        </a>
-                    </h3>
+                    <h3><a href="https://thesai.org/Publications/ViewPaper?Volume=16&Issue=7&Code=ijacsa&SerialNo=96" target="_blank">
+                        AI-Based Cybersecurity Threat Detection using Ensemble Learning Models</a></h3>
                     <p><strong>Published in:</strong> International Journal of Advanced Computer Science and Applications (IJACSA), Vol. 16, Issue 7, 2025</p>
                     <p>This work proposes an ensemble learning framework for identifying emerging cyber threats, combining Random Forest and Deep Neural Network architectures.</p>
                 </li>
 
                 <li class="list-group-item">
-                    <h3>
-                        <a href="https://www.ijcaonline.org/archives/volume187/number37/analysis-and-evaluation-of-modern-lightweight-cryptographic-algorithms-standards-hardware-implementation-and-security-considerations/" target="_blank">
-                            Analysis and Evaluation of Modern Lightweight Cryptographic Algorithms – Standards, Hardware Implementation and Security Considerations
-                        </a>
-                    </h3>
+                    <h3><a href="https://www.ijcaonline.org/archives/volume187/number37/analysis-and-evaluation-of-modern-lightweight-cryptographic-algorithms-standards-hardware-implementation-and-security-considerations/" target="_blank">
+                        Analysis and Evaluation of Modern Lightweight Cryptographic Algorithms – Standards, Hardware Implementation and Security Considerations</a></h3>
                     <p><strong>Published in:</strong> International Journal of Computer Applications (IJCA), Vol. 187, Issue 37, 2025</p>
                     <p>This paper analyzes lightweight cryptographic standards such as PRESENT, SPECK, and SIMON, evaluating their security and hardware performance trade-offs for IoT environments.</p>
                 </li>
+
+                <!-- New Papers -->
+                <li class="list-group-item">
+                    <h3><a href="https://www.acadlore.com/article/JORIT/2025_4_2/jorit.v4.2(8).05" target="_blank">
+                        Blockchain and AI for Secure IoT Data Exchange: A Lightweight Hybrid Model</a></h3>
+                    <p><strong>Published in:</strong> Journal of Real-Time Image Processing and Technology (JORIT), Vol. 4, Issue 2, 2025</p>
+                    <p>This paper integrates blockchain and artificial intelligence techniques to create a secure, low-latency IoT data exchange framework suited for industrial and edge computing applications.</p>
+                </li>
+
+                <li class="list-group-item">
+                    <h3><a href="https://www.sciencepubco.com/index.php/IJBAS/article/view/34656" target="_blank">
+                        Machine Learning Techniques for Predicting Shelf Life of Perishable Food Items</a></h3>
+                    <p><strong>Published in:</strong> International Journal of Basic and Applied Sciences (IJBAS), 2025</p>
+                    <p>This research applies regression and neural models to predict perishable food shelf life, improving supply chain optimization and waste reduction.</p>
+                </li>
+
+                <li class="list-group-item">
+                    <h3><a href="https://www.ascent-journals.com/IJERIA/Vol12No1/Paper-6-for%20IJERIA,%20Vol.12,%20No.I,%20June%202019.pdf" target="_blank">
+                        Enhancing Network Intrusion Detection using Genetic Algorithm and Fuzzy Logic</a></h3>
+                    <p><strong>Published in:</strong> International Journal of Electronics and Reliability Engineering (IJERIA), Vol. 12, Issue 1, 2019</p>
+                    <p>This study proposes a hybrid fuzzy-genetic model for intrusion detection systems, improving accuracy and response time in large-scale network environments.</p>
+                </li>
+
+                <li class="list-group-item">
+                    <h3><a href="https://www.ascent-journals.com/IJMSEA/Vol12No3/paper-9-IJMSEA,%20Vol.12,%20No.III,%20December%202018.pdf" target="_blank">
+                        Optimization of Data Mining Algorithms using Swarm Intelligence</a></h3>
+                    <p><strong>Published in:</strong> International Journal of Mathematics and Soft Computing (IJMSEA), Vol. 12, Issue 3, 2018</p>
+                    <p>This paper explores the application of swarm intelligence optimization in improving the efficiency of data mining and pattern recognition algorithms.</p>
+                </li>
+
             </ul>
 
             <br>
